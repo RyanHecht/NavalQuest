@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NavalQuest.exe" version="1.0.0.0" publicKeyToken="76df2f9a6ff8793d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\navallogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NavalQuest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="NavalQuest.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NavalQuest.exe" size="1512960">
+      <assemblyIdentity name="NavalQuest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YE0wbPE+Q8hppfhtHbs9RkLBQ1IG8cCAFcAPux2VvxQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="NavalQuest.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\navallogo.ico" size="32038">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Axhe/rOYitVGqqPD0SOXSoztYdOFKsQLxWLd9dlbSIU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=RYANDESKTOP\Ryan" issuerKeyHash="a83dba28413d02efe8fc4046f8fd709a04aac45f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LlPTMMw+O4M+5/JK5GFJxNfJvrhZGJX1NlOzt5U9zVc=</DigestValue></Reference></SignedInfo><SignatureValue>KF99RjHg994ATreMAlnpzXAzyzhIMkDOJq0YIshRgvR8JDQiBgTaxAofDCfeQBZ9BZSXSR+Tg/PvAyUarTYwhZmbea/nK/8yIoCX3+zIGIKBajs/vQVGE3nKYipiFffl6L443fDWqdCBrhqi99Sh+PAs6B0RP/yil0zh6ijP1ZQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>z4aWnawtDHZFVB/JwlJ4bxHlIybndXkS3S2u3LNalShVrluxgabO8ypjt/CJnNmLk38WYEAiPRnNU+GwA1AyqugZG4lVXWiPmDbJYSU30/nlw+VhZv8n5F+N0jgtdARE3/cvyyXV+avuAm0BEwZVLZK5MFugVD/qCLTN2GYQ5w0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="57cd3d95b7b35336f5951859b8bec9d7c44961e44af2e73e833b3ecc30d3532e" Description="" Url=""><as:assemblyIdentity name="NavalQuest.exe" version="1.0.0.0" publicKeyToken="76df2f9a6ff8793d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=RYANDESKTOP\Ryan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FtBAuOqTPdPimv5131MktDGTVz1Yiv8ji1Xm0SkcEd4=</DigestValue></Reference></SignedInfo><SignatureValue>phmZWCDBol/dhp33hqhmJtyCkF+HjlB+wEjzxgyZya5gBteJs/RCsnob7M4Tk8/+zDG83Cc0DmsZvH2Rg2Xd1dtsc5m/iGcX6yM1VEAY3LdCEXj/gZhRRXpOhtcPrWT5d9kqz5Kgz2My+vbfeRMeY2MVxxwPGd3b/66pPgndceI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>z4aWnawtDHZFVB/JwlJ4bxHlIybndXkS3S2u3LNalShVrluxgabO8ypjt/CJnNmLk38WYEAiPRnNU+GwA1AyqugZG4lVXWiPmDbJYSU30/nlw+VhZv8n5F+N0jgtdARE3/cvyyXV+avuAm0BEwZVLZK5MFugVD/qCLTN2GYQ5w0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQF58PnPueLIdJ7lMZ6B4IazANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAUgBZAEEATgBEAEUAUwBLAFQATwBQAFwAUgB5AGEAbjAeFw0xMzA2MDEwMzAzNTVaFw0xNDA2MDEwOTAzNTVaMCsxKTAnBgNVBAMeIABSAFkAQQBOAEQARQBTAEsAVABPAFAAXABSAHkAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPhpadrC0MdkVUH8nCUnhvEeUjJud1eRLdLa7cs1qVKFWuW7GBps7zKmO38Imc2YuTfxZgQCI9Gc1T4bADUDKq6BkbiVVdaI+YNslhJTfT+eXD5WFm/yfkX43SOC10BETf9y/LJdX5q+4CbQETBlUtkrkwW6BUP+oItM3YZhDnDQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIYLh98iNc1MPb5etFD5iCGwCPhIt0wVLxPBRqr8J8X3TqS7Ujvdt9e84GGpy9feMlv+3IYbTXRa/Hb6TVkg0EMDW6ANYTPF2m91srGun8XQJEV2f27gv6Fx+TYs0agFlI8SD8zo78/lcZi3OiFx96aA8jWCcpGgu44yYdglB/jt</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
